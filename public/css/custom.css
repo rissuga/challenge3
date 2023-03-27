@@ -90,12 +90,22 @@
     border: none;
     width: auto;
 }
-
+.btn-search {
+    width: 11%;
+    background: #5cb85f;
+    border-radius: 2px;
+    border-style: none;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    height: 6vh;
+    align-self: end;
+  }
 .btn-burger-menu {
     border: none;
     background-color: transparent;
 }
-
 
 
 /*--------------------------------------------------------------
