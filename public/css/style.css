@@ -355,6 +355,22 @@ ul {
     border: 1px solid #5cb85f;
     box-shadow: none;
   }
+
+  .result-container {
+    text-align: -webkit-center;
+  }
+  .result {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding-top: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    justify-content: space-around;
+    flex-flow: wrap;
+    text-align: left;
+    color: black;
+  }
   
 
 

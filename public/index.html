@@ -3,7 +3,14 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Sabrina" />
+    <meta name="description" content="Lorem ipsum dolor sit amet" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
+    />
     <title>BCR</title>  
 
     <!-- Bootstrap CSS -->
@@ -68,7 +75,7 @@
             <div class="col-lg-6 mt-5 hero-content">
                 <h1 class="font__heading__1">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
                 <p class="font__size__14" style="width: 80%;">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
-                <button class="btn btn-success mb-4">Mulai Sewa Mobil</button>
+                <a href="./carimobil.html" class="btn btn-success mb-4">Mulai Sewa Mobil</a>
             </div>
             <div class="col-lg-6 justify-content-end">
               <img src="./assets/images/img_car.svg" alt="car" class="img-hero" style="right: 0;" width="121%" >
@@ -249,7 +256,7 @@
         <p class="mb-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         </p>
-        <a class="btn btn-success banner-btn mb-3">
+        <a class="btn btn-success banner-btn mb-3" id="load-btn" href="./carimobil.html">
           Mulai Sewa Mobil
         </a>
       </div>
@@ -377,6 +384,11 @@
 
     <!-- Owl Carousel Min.js-->
     <script src="./scripts/owl.carousel.min.js"></script>
+
+    <script type="text/javascript" src="./scripts/binar.js"></script>
+    <script type="text/javascript" src="./scripts/app.example.js"></script>
+    <script type="text/javascript" src="./scripts/car.example.js"></script>
+    <script type="text/javascript" src="./scripts/main.example.js"></script>
 
     <script>
      $('.owl-carousel').owlCarousel({
