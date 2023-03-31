@@ -1,4 +1,4 @@
-class Car {
+class Car extends Component {
   static list = [];
 
   static init(cars) {
@@ -39,6 +39,7 @@ class Car {
     this.availableAt = availableAt;
   }
 
+  // Override from Component class
   render() {
     // const rentCost = rupiah(this.rentPerDay);
 
