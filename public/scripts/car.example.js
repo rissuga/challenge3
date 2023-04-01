@@ -1,4 +1,4 @@
-class Car extends Component {
+class Car  {
   static list = [];
 
   static init(cars) {
